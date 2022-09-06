@@ -17,6 +17,7 @@ import LoginControl from './chapter_09/LoginControl';
 import Mailbox from './chapter_09/Mailbox';
 import MainPage from './chapter_09/MainPage';
 import LandingPage from './chapter_09/LandingPage';
+import AttendanceBook from './chapter_10/AttendanceBook';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,6 +25,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
   root.render(
     <React.StrictMode>
       <LandingPage/>
+      <AttendanceBook/>
     </React.StrictMode>,
     document.getElementById('root')
   );
