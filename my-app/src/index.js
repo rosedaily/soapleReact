@@ -18,6 +18,9 @@ import Mailbox from './chapter_09/Mailbox';
 import MainPage from './chapter_09/MainPage';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
+import SelectFruit from './chapter_11/SelectFruit';
+import SignUp from './chapter_11/SignUp';
+import Calculator from './chapter_12/Calculator';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -26,6 +29,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     <React.StrictMode>
       <LandingPage/>
       <AttendanceBook/>
+      <SelectFruit/>
+      <SignUp/>
+      <Calculator/>
     </React.StrictMode>,
     document.getElementById('root')
   );
