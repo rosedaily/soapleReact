@@ -21,6 +21,7 @@ import AttendanceBook from './chapter_10/AttendanceBook';
 import SelectFruit from './chapter_11/SelectFruit';
 import SignUp from './chapter_11/SignUp';
 import Calculator from './chapter_12/Calculator';
+import ProfileCard from './chapter_13/ProfileCard';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -32,6 +33,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
       <SelectFruit/>
       <SignUp/>
       <Calculator/>
+      <ProfileCard/>
     </React.StrictMode>,
     document.getElementById('root')
   );
