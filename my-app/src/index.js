@@ -22,18 +22,20 @@ import SelectFruit from './chapter_11/SelectFruit';
 import SignUp from './chapter_11/SignUp';
 import Calculator from './chapter_12/Calculator';
 import ProfileCard from './chapter_13/ProfileCard';
+import DarkOrLight from './chapter_14/DarkOrLight';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // setInterval(() => {
   root.render(
     <React.StrictMode>
-      <LandingPage/>
+      {/* <LandingPage/>
       <AttendanceBook/>
       <SelectFruit/>
       <SignUp/>
       <Calculator/>
-      <ProfileCard/>
+      <ProfileCard/> */}
+      <DarkOrLight/>
     </React.StrictMode>,
     document.getElementById('root')
   );
