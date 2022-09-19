@@ -15,7 +15,7 @@ import Accommodate from './chapter_07/Accommodate';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import LoginControl from './chapter_09/LoginControl';
 import Mailbox from './chapter_09/Mailbox';
-import MainPage from './chapter_09/MainPage';
+// import MainPage from './chapter_09/MainPage';
 import LandingPage from './chapter_09/LandingPage';
 import AttendanceBook from './chapter_10/AttendanceBook';
 import SelectFruit from './chapter_11/SelectFruit';
@@ -23,19 +23,15 @@ import SignUp from './chapter_11/SignUp';
 import Calculator from './chapter_12/Calculator';
 import ProfileCard from './chapter_13/ProfileCard';
 import DarkOrLight from './chapter_14/DarkOrLight';
+import MainPage from './chapter_15/MainPage';
+import Blocks from './chapter_15/Blocks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // setInterval(() => {
   root.render(
     <React.StrictMode>
-      {/* <LandingPage/>
-      <AttendanceBook/>
-      <SelectFruit/>
-      <SignUp/>
-      <Calculator/>
-      <ProfileCard/> */}
-      <DarkOrLight/>
+      <Blocks/>
     </React.StrictMode>,
     document.getElementById('root')
   );
